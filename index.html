@@ -34,7 +34,7 @@
                     <li>Goals: 91</li>
                     <li>Assist: 142</li>
                 </ul>
-                <button id="btn-0" class="btn btn-dark submit-btn w-75">Select</button>
+                <button id="player-0" class="btn btn-dark submit-btn w-75 selectPlayer">Select</button>
 
             </div>
 
@@ -46,7 +46,7 @@
                     <li>Goals: 11</li>
                     <li>Assist: 12</li>
                 </ul>
-                <button id="btn-1" class="btn btn-dark submit-btn w-75">Select</button>
+                <button id="player-1" class="btn btn-dark submit-btn w-75 selectPlayer">Select</button>
 
             </div>
             <!-- player: Romero2 -->
@@ -57,7 +57,7 @@
                     <li>Goals: 1</li>
                     <li>Assist: 2</li>
                 </ul>
-                <button id="btn-2" class="btn btn-dark submit-btn w-75">Select</button>
+                <button id="player-2" class="btn btn-dark submit-btn w-75 selectPlayer">Select</button>
 
             </div>
             <!-- Player:Paulo Dybala -->
@@ -68,7 +68,7 @@
                     <li>Goals: 41</li>
                     <li>Assist: 42</li>
                 </ul>
-                <button id="btn-3" class="btn btn-dark w-75 submit-btn">Select</button>
+                <button id="player-3" class="btn btn-dark w-75 submit-btn selectPlayer">Select</button>
 
             </div>
             <!-- player:Parades -->
@@ -80,7 +80,7 @@
                     <li>Goals: 21</li>
                     <li>Assist: 62</li>
                 </ul>
-                <button id="btn-4" class="btn btn-dark submit-btn w-75">Select</button>
+                <button id="player-4" class="btn btn-dark submit-btn w-75 selectPlayer">Select</button>
 
             </div>
             <!-- player:Sergio Aguero -->
@@ -91,7 +91,7 @@
                     <li>Goals: 61</li>
                     <li>Assist: 42</li>
                 </ul>
-                <button id="btn-5" class="btn btn-dark submit-btn w-75">Select</button>
+                <button id="player-5" class="btn btn-dark submit-btn w-75 selectPlayer">Select</button>
 
             </div>
             <!-- player:Di Maria -->
@@ -102,7 +102,7 @@
                     <li>Goals: 51</li>
                     <li>Assist: 62</li>
                 </ul>
-                <button id="btn-6" class="btn btn-dark w-75 submit-btn">Select</button>
+                <button id="player-6" class="btn btn-dark w-75 submit-btn selectPlayer">Select</button>
 
             </div>
             <!-- player: Neymar Jr -->
@@ -113,7 +113,7 @@
                     <li>Goals: 71</li>
                     <li>Assist: 32</li>
                 </ul>
-                <button id="btn-7" class="btn btn-dark w-75 submit-btn">Select</button>
+                <button id="player-7" class="btn btn-dark w-75 submit-btn selectPlayer">Select</button>
 
             </div>
             <!-- player: Mbappe -->
@@ -124,14 +124,14 @@
                     <li>Goals: 51</li>
                     <li>Assist: 22</li>
                 </ul>
-                <button id="btn-8" class="btn btn-dark w-75 submit-btn">Select</button>
+                <button id="player-8" class="btn btn-dark w-75 submit-btn selectPlayer">Select</button>
 
             </div>
             
         </section>
         <section class="calculation">
             <div class="auto-select">
-                <h3 class="text-center mt-3 text-white">Selected-5</h3> <hr>
+                <h3 class="text-center mt-3 text-white">Selected-<span id="totalSelectedPlayer">0</span></h3> <hr>
                 <ul id="player-list">
                    
                 </ul>
@@ -140,7 +140,7 @@
                 <h3 class="text-center mt-3 text-white">Budget <hr></h3>
                 <div class="d-flex justify-content-between mb-3 mx-3">
                     <label for="player" class="fw-bold">Per Player</label>
-                    <input type="text" name="" id="player-cost" class="bg-dark border rounded text-white border-primary">
+                    <input type="number" name="" id="player-cost" class="bg-dark border rounded text-white border-primary">
                 </div>
                 <div class="d-flex justify-content-center mx-3">
                     <button id="calculate-btn" class="btn btn-dark w-100 mx-auto">Calculate</button>
